@@ -1,0 +1,50 @@
+<meta charset = 'UTF-8'>
+
+    <script>
+
+function pulalinha () {
+    document.write('<br><br><br>');
+}
+
+function mostra (frase){
+    document.write(frase);
+    pulalinha()
+}
+function multiplica(n1, n2){
+    return n1 * n2
+
+} 
+
+function divisão (n1, n2){
+    return n1 / n2
+
+}
+
+function soma(n1,n2){
+    return  parseInt(n1) + parseInt(n2)
+}
+
+function subtração(n1, n2){
+    return n1 - n2
+
+}
+
+
+
+
+alert('informe 2 numeros para saber algumas relações entre eles')
+var n1 = prompt('informe um numero')
+var n2 = prompt('agora outro')
+var multiplicado = multiplica(n1, n2)
+var dividido = divisão(n1, n2)
+var somado = soma(n1, n2)
+var subtraido = subtração(n1, n2)
+
+mostra('A multiplicação entre os números é igual a  ' + multiplicado)
+mostra('A divisão entre os números é igual a ' + dividido)
+mostra ('A soma entre os números é igual a ' + somado)
+mostra ('A subtração entre os números é igual a ' + subtraido)
+
+
+</script>
+
